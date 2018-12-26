@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		904FAEA220C16A95000A6B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904FAEA120C16A95000A6B19 /* Assets.xcassets */; };
+		904FAEA920C16A95000A6B19 /* MyTracker MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 904FAEA820C16A95000A6B19 /* MyTracker MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		904FAEAE20C16A95000A6B19 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904FAEAD20C16A95000A6B19 /* Messages.framework */; };
+		904FAEB120C16A95000A6B19 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904FAEB020C16A95000A6B19 /* MessagesViewController.swift */; };
+		904FAEB420C16A95000A6B19 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904FAEB220C16A95000A6B19 /* MainInterface.storyboard */; };
+		904FAEB620C16A96000A6B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904FAEB520C16A96000A6B19 /* Assets.xcassets */; };
+		904FAEC220C16BB4000A6B19 /* CommandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904FAEC120C16BB4000A6B19 /* CommandCell.swift */; };
+		904FAEC420C16E77000A6B19 /* CommandsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904FAEC320C16E77000A6B19 /* CommandsModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		904FAEAA20C16A95000A6B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904FAE9820C16A94000A6B19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904FAEA720C16A95000A6B19;
+			remoteInfo = "MyTracker MessagesExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		904FAEBD20C16A96000A6B19 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				904FAEA920C16A95000A6B19 /* MyTracker MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		904FAE9E20C16A94000A6B19 /* MyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		904FAEA120C16A95000A6B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		904FAEA320C16A95000A6B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904FAEA820C16A95000A6B19 /* MyTracker MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MyTracker MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904FAEAD20C16A95000A6B19 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		904FAEB020C16A95000A6B19 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		904FAEB320C16A95000A6B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		904FAEB520C16A96000A6B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		904FAEB720C16A96000A6B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904FAEC120C16BB4000A6B19 /* CommandCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandCell.swift; sourceTree = "<group>"; };
+		904FAEC320C16E77000A6B19 /* CommandsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandsModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		904FAEA520C16A95000A6B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904FAEAE20C16A95000A6B19 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		904FAE9720C16A94000A6B19 = {
+			isa = PBXGroup;
+			children = (
+				904FAEA020C16A94000A6B19 /* MyTracker */,
+				904FAEAF20C16A95000A6B19 /* MyTracker MessagesExtension */,
+				904FAEAC20C16A95000A6B19 /* Frameworks */,
+				904FAE9F20C16A94000A6B19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		904FAE9F20C16A94000A6B19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				904FAE9E20C16A94000A6B19 /* MyTracker.app */,
+				904FAEA820C16A95000A6B19 /* MyTracker MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		904FAEA020C16A94000A6B19 /* MyTracker */ = {
+			isa = PBXGroup;
+			children = (
+				904FAEA120C16A95000A6B19 /* Assets.xcassets */,
+				904FAEA320C16A95000A6B19 /* Info.plist */,
+			);
+			path = MyTracker;
+			sourceTree = "<group>";
+		};
+		904FAEAC20C16A95000A6B19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				904FAEAD20C16A95000A6B19 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		904FAEAF20C16A95000A6B19 /* MyTracker MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				904FAEB520C16A96000A6B19 /* Assets.xcassets */,
+				904FAEC120C16BB4000A6B19 /* CommandCell.swift */,
+				904FAEC320C16E77000A6B19 /* CommandsModel.swift */,
+				904FAEB720C16A96000A6B19 /* Info.plist */,
+				904FAEB220C16A95000A6B19 /* MainInterface.storyboard */,
+				904FAEB020C16A95000A6B19 /* MessagesViewController.swift */,
+			);
+			path = "MyTracker MessagesExtension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		904FAE9D20C16A94000A6B19 /* MyTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904FAEBE20C16A96000A6B19 /* Build configuration list for PBXNativeTarget "MyTracker" */;
+			buildPhases = (
+				904FAE9C20C16A94000A6B19 /* Resources */,
+				904FAEBD20C16A96000A6B19 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				904FAEAB20C16A95000A6B19 /* PBXTargetDependency */,
+			);
+			name = MyTracker;
+			productName = MyTracker;
+			productReference = 904FAE9E20C16A94000A6B19 /* MyTracker.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		904FAEA720C16A95000A6B19 /* MyTracker MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904FAEBA20C16A96000A6B19 /* Build configuration list for PBXNativeTarget "MyTracker MessagesExtension" */;
+			buildPhases = (
+				904FAEA420C16A95000A6B19 /* Sources */,
+				904FAEA520C16A95000A6B19 /* Frameworks */,
+				904FAEA620C16A95000A6B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyTracker MessagesExtension";
+			productName = "MyTracker MessagesExtension";
+			productReference = 904FAEA820C16A95000A6B19 /* MyTracker MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		904FAE9820C16A94000A6B19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = miraving;
+				TargetAttributes = {
+					904FAE9D20C16A94000A6B19 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					904FAEA720C16A95000A6B19 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 904FAE9B20C16A94000A6B19 /* Build configuration list for PBXProject "MyTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 904FAE9720C16A94000A6B19;
+			productRefGroup = 904FAE9F20C16A94000A6B19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				904FAE9D20C16A94000A6B19 /* MyTracker */,
+				904FAEA720C16A95000A6B19 /* MyTracker MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		904FAE9C20C16A94000A6B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904FAEA220C16A95000A6B19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904FAEA620C16A95000A6B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904FAEB620C16A96000A6B19 /* Assets.xcassets in Resources */,
+				904FAEB420C16A95000A6B19 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		904FAEA420C16A95000A6B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904FAEB120C16A95000A6B19 /* MessagesViewController.swift in Sources */,
+				904FAEC220C16BB4000A6B19 /* CommandCell.swift in Sources */,
+				904FAEC420C16E77000A6B19 /* CommandsModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		904FAEAB20C16A95000A6B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 904FAEA720C16A95000A6B19 /* MyTracker MessagesExtension */;
+			targetProxy = 904FAEAA20C16A95000A6B19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		904FAEB220C16A95000A6B19 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904FAEB320C16A95000A6B19 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		904FAEB820C16A96000A6B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		904FAEB920C16A96000A6B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		904FAEBB20C16A96000A6B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69BNY6KMTF;
+				INFOPLIST_FILE = "MyTracker MessagesExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miraving.MyTracker.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		904FAEBC20C16A96000A6B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69BNY6KMTF;
+				INFOPLIST_FILE = "MyTracker MessagesExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miraving.MyTracker.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		904FAEBF20C16A96000A6B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69BNY6KMTF;
+				INFOPLIST_FILE = MyTracker/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miraving.MyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		904FAEC020C16A96000A6B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69BNY6KMTF;
+				INFOPLIST_FILE = MyTracker/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miraving.MyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		904FAE9B20C16A94000A6B19 /* Build configuration list for PBXProject "MyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904FAEB820C16A96000A6B19 /* Debug */,
+				904FAEB920C16A96000A6B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904FAEBA20C16A96000A6B19 /* Build configuration list for PBXNativeTarget "MyTracker MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904FAEBB20C16A96000A6B19 /* Debug */,
+				904FAEBC20C16A96000A6B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904FAEBE20C16A96000A6B19 /* Build configuration list for PBXNativeTarget "MyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904FAEBF20C16A96000A6B19 /* Debug */,
+				904FAEC020C16A96000A6B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 904FAE9820C16A94000A6B19 /* Project object */;
+}
